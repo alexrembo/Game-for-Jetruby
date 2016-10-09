@@ -4,7 +4,7 @@ import ControlPanel from './childs user/ControlPanel'
 import ScorePanel from './childs user/ScorePanel'
 
 export default class User extends Component {
-	constructor(props) {
+    constructor(props) {
     super(props)
     this.state = {
       visibleForm: false,
