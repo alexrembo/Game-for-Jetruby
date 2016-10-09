@@ -26,9 +26,7 @@ export default function page(state = initialState, action) {
       return { ...state, pictures: action.payload, visibleLoadingPage: false, score: 0, coefficient: 1 }
     case COUNT_SCORE_GAME:
       return { ...state, score: action.payload.score, coefficient: action.payload.coefficient }
-
     default:
       return state;
   }
-
 }
