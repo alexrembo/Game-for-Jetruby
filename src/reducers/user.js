@@ -33,9 +33,7 @@ export default function user(state = initialState, action) {
       return { ...state, 
         statusSavedResult: true 
       }        
-
     default:
       return state
   }
-
 }
