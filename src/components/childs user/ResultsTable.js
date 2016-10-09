@@ -28,5 +28,5 @@ export default class ResultsTable extends Component {
         </div>
       </div>
     </div>
-   }
+  }
 }
