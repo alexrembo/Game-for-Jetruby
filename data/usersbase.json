@@ -1,1 +1,27 @@
-{"users":[{"name":"Саша Пуськов","score":11,"date":"17:37 09.10.16"},{"name":"aleks","score":36,"date":"17:38 09.10.16"},{"name":"Nigga","score":31,"date":"17:40 09.10.16"},{"name":"rembo","score":125,"date":"17:46 09.10.16"},{"name":"maks","score":99,"date":"18:12 09.10.16"}]}
+{
+  "users":  [
+    {
+      "name":"Саша Пуськов",
+      "score":11,
+      "date":"17:37 09.10.16"
+    },
+    {
+      "name":"aleks",
+      "score":36,
+      "date":"17:38 09.10.16"
+    },
+    {
+      "name":"Nigga",
+      "score":31,
+      "date":"17:40 09.10.16"
+    },
+    {
+      "name":"rembo",
+      "score":125,"date":"17:46 09.10.16"},
+    {
+      "name":"maks",
+      "score":99,
+      "date":"18:12 09.10.16"
+    }
+  ]
+}
