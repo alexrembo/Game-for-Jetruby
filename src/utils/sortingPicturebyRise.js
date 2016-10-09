@@ -12,7 +12,8 @@ export const sortingPicturebyRise = pictures => {
     } 
   })
   const sortingByRise = (a, b) => {
-    return a.number > b.number;
+    if (a.number > b.number) return 1;
+    if (a.number < b.number) return -1;
   }
   const picturesWithSorting = picturesWithUniqueNumbers.sort(sortingByRise);
   return picturesWithSorting;
