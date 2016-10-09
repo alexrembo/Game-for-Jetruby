@@ -1,7 +1,7 @@
 import React, { PropTypes, Component } from 'react'
 
 export default class ScorePanel extends Component {
-	static propTypes = {
+    static propTypes = {
     bestScore: PropTypes.number.isRequired,
     score: PropTypes.number.isRequired
   }
