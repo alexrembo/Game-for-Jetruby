@@ -66,14 +66,14 @@ export const getUsersResults = () => {
         //among all the objects find the one where the largest score
         const bestUser = _.max(data.users, function(userInfo){ return userInfo.score; });
         const bestScore = bestUser.score || 0;
-          dispatch({
-            type: GET_USERS_RESULTS_SUCCESS,
-            payload: {
-              bestScore: bestScore,
-              usersResults: usersResultsWithSortByFall
-            }
-          })
-      }
+        dispatch({
+          type: GET_USERS_RESULTS_SUCCESS,
+          payload: {
+            bestScore: bestScore,
+            usersResults: usersResultsWithSortByFall
+          }
+        })
+      } 
     })  
   } 
 }
