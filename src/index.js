@@ -7,7 +7,7 @@ import configureStore from './store/configureStore'
 import { Provider } from 'react-redux'
 
 const store = configureStore()
-render(
+render (
   <Provider store={store}>
     <Router history={browserHistory} routes={routes} />
   </Provider>,
